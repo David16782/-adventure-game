@@ -1,0 +1,69 @@
+h1 {
+    font-family: "JetBrains Mono", "Times New Roman", Times, serif;
+    font-size: 32px;
+}
+
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    font-size: 20px;
+    font-family: "inter", "Times New Roman", Times, serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-container {
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+
+    background-color: #0f1b2d;
+    border: 1px solid #38bdf8;
+    border-radius: 14px;
+    padding: 32px;
+}
+
+#answers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#answers button {
+    width: 100%;
+    text-align: left;
+
+    background-color: #0f1b2d;
+    color: #e5e7eb;
+
+    border: 1px solid #38bdf8;
+    border-radius: 12px;
+
+    padding: 12px 14px;
+    font-size: 18px;
+    font-family: "inter", "Times New Roman", Times, serif;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.18s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease,
+        background-color 0.25s ease;
+}
+
+#answers button:hover{
+    border-color: #38bdf8;
+
+    box-shadow:
+        0 0 0 1px rgba(47, 149, 192, 0.35),
+        0 10px 30px rgba(56, 189, 248, 0.12),
+        0 0 60px rgba(56, 189, 248, 0.08);
+}
