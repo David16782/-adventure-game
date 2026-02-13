@@ -8,7 +8,7 @@ function renderQuestion() {
 
     switch (currentState) {
         case "Start":
-            question.textContent = "You walked into a bar and a man offers you a coinflip";
+            question.textContent = "You walked into a bar and a man offers you a coinflip.";
             addAnswerButton("Heads", "Heads");
             addAnswerButton("Tails", "Tails");
             break;
